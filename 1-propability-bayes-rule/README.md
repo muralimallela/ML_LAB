@@ -22,9 +22,9 @@ Bayes' Rule is applied as follows:
    - The probability of Friday: p(F) = 0.20
 
 2. **Calculation:**
-   - Using Bayes' Rule: **P(A | F) = P(A ∩ F) / P(F)**
+   - Using Bayes' Rule: $P{(A \over  F) }= {P(A ∩ F) \over P(F)}
    This is an inline math expression $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-
+   -  $P{(A \over  F) }= {P(A ∩ F) \over P(F)}
 3. **Result:**
    - The probability that a student is absent given that today is Friday: P(A | F)
 
