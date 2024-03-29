@@ -18,7 +18,7 @@ To run this program, you need to have the following modules installed:
      pip install scikit-learn
      ```
 
-Finally, you need to create a dataset called "Statements_data.csv" with labeled English text statements.
+Finally, you need to create a dataset called `Statements_data.csv` with labeled English text statements.
 
 
 ### Data Description
