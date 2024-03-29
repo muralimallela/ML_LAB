@@ -12,6 +12,7 @@ Before executing the script, make sure to install `mysql.connector` using pip. Y
 
 ```bash
 pip install mysql.connector
+```
 
 ## Steps
 
