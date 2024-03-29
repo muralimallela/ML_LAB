@@ -4,7 +4,7 @@ This Python script implements k-nearest neighbors (KNN) classification using the
 
 ## Installation
 
-Before running the script, make sure to install the scikit-learn module. You can do this via pip:
+Before running the script, make sure to install the `scikit-learn module`. You can do this via pip:
 
 ```bash
 pip install scikit-learn
