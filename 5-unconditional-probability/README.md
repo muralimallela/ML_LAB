@@ -56,17 +56,17 @@ In the given dataset:
 - The total number of records are 10.
 - The number of records which contain 'golf' are 4.
 - Then, the Unconditional probability of golf is calculated as follows:
-- -  The number of records which contain 'golf' / total number of records
-- - = 4 / 10
-- - = 0.4
-To find the Conditional probability of 'single' given 'medRisk':
-By the definition of Bayes' rule (conditional probability), we have:
-P(S | MR) = P(S ∩ MR) / P(MR)
-Based on the given problem statement:
-P(S ∩ MR) = The number of 'MedRisk' with 'Single' records / total number of Records
-= 2 / 10 = 0.2
-P(MR) = The number of records with 'MedRisk' / total number of Records
-= 3 / 10 = 0.3
-Then, the Conditional probability of 'single' given 'medRisk' is calculated as:
-P(S | MR) = 0.2 / 0.3
-= 0.66666
+  -  The number of records which contain 'golf' / total number of records
+  - = 4 / 10
+  -  = 0.4
+- To find the Conditional probability of 'single' given 'medRisk':
+  - By the definition of Bayes' rule (conditional probability), we have:
+    - P(S | MR) = P(S ∩ MR) / P(MR)
+  - Based on the given problem statement:
+    - P(S ∩ MR) = The number of 'MedRisk' with 'Single' records / total number of Records
+      - = 2 / 10 = 0.2
+    - P(MR) = The number of records with 'MedRisk' / total number of Records
+      - = 3 / 10 = 0.3
+  - Then, the Conditional probability of 'single' given 'medRisk' is calculated as:
+    - P(S | MR) = 0.2 / 0.3
+    - = 0.66666
