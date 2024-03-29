@@ -19,7 +19,7 @@ pip install pandas numpy matplotlib
 
 ## Data Description
 
-The `[Age_Income.csv](https://github.com/muralimallela/ML_LAB/blob/main/6-linear-regression/Age_Income.csv)` file contains two columns: Age and Income. Each row represents a data point with the age and income of an individual.
+The [Age_Income.csv](https://github.com/muralimallela/ML_LAB/blob/main/6-linear-regression/Age_Income.csv) file contains two columns: Age and Income. Each row represents a data point with the age and income of an individual.
 
 
 Here is a sample of the data:
