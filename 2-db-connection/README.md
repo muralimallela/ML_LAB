@@ -6,6 +6,13 @@ This guide will walk you through setting up the `SampleDB` database and creating
 
 Before you start, ensure you have MySQL installed on your system.
 
+## Installing mysql.connector
+
+Before executing the script, make sure to install `mysql.connector` using pip. You can do this by running the following command:
+
+```bash
+pip install mysql.connector
+
 ## Steps
 
 1. Open your MySQL command-line client or any MySQL database management tool.
