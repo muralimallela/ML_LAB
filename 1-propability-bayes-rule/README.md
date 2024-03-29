@@ -24,7 +24,7 @@ Bayes' Rule is applied as follows:
 
 2. **Calculation:**
    - Using Bayes' Rule: 
-   $$P\left(A | F \right) \eq \frac{P(A \cap F)}{P(F)} $$
+   $$P\left(A | F \right) = \frac{P(A \cap F)}{P(F)} $$
 
 3. **Result:**
    - The probability that a student is absent given that today is Friday: $ P(A | F) $
