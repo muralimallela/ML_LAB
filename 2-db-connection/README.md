@@ -47,7 +47,7 @@ pip install mysql.connector
 
 5. Once the table is created and populated, you can use it in your applications.
 
-## Usage
+# Usage
 
 You can use the provided Python script `dbConnect.py` to connect to the `SampleDB` database and retrieve student details. Make sure to update the connection parameters in the script according to your MySQL setup.
 
