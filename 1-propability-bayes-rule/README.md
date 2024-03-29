@@ -19,15 +19,15 @@ We need to find the probability that a student is absent given that today is Fri
 Bayes' Rule is applied as follows:
 
 1. **Given Information:**
-   - The probability of Friday and absent: \( p(A \cap F) = 0.03 \)
-   - The probability of Friday: \( p(F) = 0.20 \)
+   - The probability of Friday and absent: $ p(A \cap F) = 0.03 $
+   - The probability of Friday: $ p(F) = 0.20 $
 
 2. **Calculation:**
-   - Using Bayes' Rule: \( P(A | F) = \frac{P(A \cap F)}{P(F)} \)
-     \( P(A | F) = \frac{P(A \cap F)}{P(F)} \)
+   - Using Bayes' Rule: $ P(A | F) = \frac{P(A \cap F)}{P(F)} $
+     $ P(A | F) = \frac{P(A \cap F)}{P(F)} $
 
 3. **Result:**
-   - The probability that a student is absent given that today is Friday: \( P(A | F) \)
+   - The probability that a student is absent given that today is Friday: $ P(A | F) $
 
 
 
