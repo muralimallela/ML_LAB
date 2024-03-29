@@ -2,6 +2,21 @@
 
 This script performs a simple linear regression analysis on the relationship between age and income using data from the provided `Age_Income.csv` file.
 
+
+## Requirements
+
+Before running the script, make sure you have the following Python libraries installed:
+
+- pandas
+- numpy
+- matplotlib
+
+You can install these libraries using pip:
+
+```bash
+pip install pandas numpy matplotlib
+```
+
 ## Data Description
 
 The `Age_Income.csv` file contains two columns: Age and Income. Each row represents a data point with the age and income of an individual.
