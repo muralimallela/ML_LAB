@@ -19,7 +19,7 @@ We need to find the probability that a student is absent given that today is Fri
 Bayes' Rule is applied as follows:
 
 1. **Given Information:**
-   - The probability of Friday and absent: $ p(A \cap F) = 0.03 $
+   - The probability of Friday and absent: $$ p(A \cap F) = 0.03 $$
    - The probability of Friday: $ p(F) = 0.20 $
 
 2. **Calculation:**
@@ -29,7 +29,8 @@ Bayes' Rule is applied as follows:
 3. **Result:**
    - The probability that a student is absent given that today is Friday: $ P(A | F) $
 
-
+**The Cauchy-Schwarz Inequality**
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
 ## Python Code
 
