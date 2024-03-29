@@ -1,4 +1,4 @@
-# Age and Income Regression Analysis
+# Age and Income Linear-Regression Analysis
 
 This script performs a simple linear regression analysis on the relationship between age and income using data from the provided `Age_Income.csv` file.
 
