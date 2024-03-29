@@ -54,3 +54,4 @@ You can run the script using any Python environment or IDE.
 ```bash
 python regression_analysis.py
 ```
+![OUTPUT IMAGE](output.png)
