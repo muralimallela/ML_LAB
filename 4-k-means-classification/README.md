@@ -16,7 +16,7 @@ In this program, we are going to use the following data:
 | 0.459 | 1.799 |   1   |
 | 0.773 | 0.186 |   1   |
 
-And, we need to apply k-means clustering with 3 means (i.e., 3 centroids). Finally, we need to predict the class for the case where VAR1=0.906 and VAR2=0.606.
+And, we need to apply k-means clustering with 3 means (i.e., 3 centroids). Finally, we need to predict the class for the case where `VAR1=0.906` and `VAR2=0.606`.
 
 ## Problem Description
 
