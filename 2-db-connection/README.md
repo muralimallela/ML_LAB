@@ -80,7 +80,7 @@ Replace `host`, `user`, `password` values with your MySQL credentials.
 ## Expected Output
 When you run the script, you should see the following output:
 
-```bash
+```css
 Student details are:
 ('s521', 'Jhon Bob', 23)
 ('s522', 'Dilly', 22)
