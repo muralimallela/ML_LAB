@@ -84,7 +84,7 @@ This script performs the following steps:
 
 Upon running the script, you will see the predicted class for the given test data.
 
-```bash
+```
 The input data is
 VAR1 VAR2 CLASS
 1.713 1.586 0
