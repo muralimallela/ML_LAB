@@ -75,3 +75,17 @@ for x in result:
 conn.commit()
 conn.close()
 ```
+Replace `host`, `user`, `password` values with your MySQL credentials.
+
+## Expected Output
+When you run the script, you should see the following output:
+
+```css
+Student details are:
+('s521', 'Jhon Bob', 23)
+('s522', 'Dilly', 22)
+('s523', 'Kenney', 25)
+('s524', 'Herny', 26)
+```
+
+This output displays the details of each student retrieved from the students table in the SampleDB database. Each row represents a student with their `ID` (sid), `name` (sname), and `age`.
