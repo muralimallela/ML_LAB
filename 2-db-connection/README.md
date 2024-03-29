@@ -49,7 +49,7 @@ pip install mysql.connector
 
 ## Usage
 
-You can use the provided Python script `script.py` to connect to the `SampleDB` database and retrieve student details. Make sure to update the connection parameters in the script according to your MySQL setup.
+You can use the provided Python script `dbConnect.py` to connect to the `SampleDB` database and retrieve student details. Make sure to update the connection parameters in the script according to your MySQL setup.
 
 ```python
 import mysql.connector
