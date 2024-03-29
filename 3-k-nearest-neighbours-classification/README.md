@@ -16,7 +16,7 @@ You can run the provided Python script knn_classification.py to perform k-neares
 python knn_classification.py
 ```
 # Script Explanation
-The Python script knn_classification.py contains the following code:
+The Python script `knn_classification.py` contains the following code:
 
 ```python
 # Import necessary modules
