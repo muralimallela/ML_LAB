@@ -7,7 +7,7 @@ This script performs a simple linear regression analysis on the relationship bet
 The `Age_Income.csv` file contains two columns: Age and Income. Each row represents a data point with the age and income of an individual.
 
 Here is a sample of the data:
-|--------------|
+
 | Age | Income |
 |-----|--------|
 | 25  | 25000  |
