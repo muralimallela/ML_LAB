@@ -54,4 +54,9 @@ You can run the script using any Python environment or IDE.
 ```bash
 python regression_analysis.py
 ```
-![OUTPUT IMAGE](output.png)
+## Expected Output
+
+Upon running the script, you should see a scatter plot with the actual data points and a regression line fitted to the data.
+
+![Output Image](output.png)
+
