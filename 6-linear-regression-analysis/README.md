@@ -36,7 +36,16 @@ Here is a sample of the data:
 | 55  | 81000  |
 | 45  | 47500  |
 
+## Usage
+
+You can run the provided Python script `regression_analysis.py` to performs a simple linear regression analysis on the relationship between age and income using data from the provided `Age_Income.csv` file. Here's how to run it:
+
+```bash
+python regression_analysis.py
+```
 ## Script Explanation
+
+The Python script `regression_analysis.py` contains the following code:
 
 ```python
 import pandas as pd

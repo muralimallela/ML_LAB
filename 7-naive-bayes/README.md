@@ -46,7 +46,16 @@ This dataset `Statements_data.csv` contains labeled English text statements indi
 | We will have good fun tomorrow            | pos   |
 | I hate this food                          | neg   |
 
+## Usage
+
+You can run the provided Python script `naive-bayes-theorem.py` to implement Naive Bayes Theorem for classifying English text as positive or negative sentiment using data from the provided `Statements_data.csv` file. Here's how to run it:
+
+```bash
+python naive-bayes-theorem.py
+```
 ## Script Explanation
+
+The Python script `naive-bayes-theorem.py` contains the following code:
 
 ```python
 import pandas as pd
