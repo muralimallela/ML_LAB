@@ -84,23 +84,24 @@ This script performs the following steps:
 
 Upon running the script, you will see the predicted class for the given test data.
 
-```
+```html
+<pre>
 The input data is
-VAR1 VAR2 CLASS
-1.713 1.586 0
-0.18 1.786 1
-0.353 1.24 1
-0.94 1.566 0
-1.486 0.759 1
-1.266 1.106 0
-1.54 0.419 1
-0.459 1.799 1
-0.773 0.186 1
+VAR1   VAR2   CLASS
+1.713  1.586  0
+0.18   1.786  1
+0.353  1.24   1
+0.94   1.566  0
+1.486  0.759  1
+1.266  1.106  0
+1.54   0.419  1
+0.459  1.799  1
+0.773  0.186  1
 ====================
 The Test data to predict
 Enter Value for VAR1 :0.906
 Enter Value for VAR2 :0.606
 ====================
 The predicted Class is : [0]
-
+<pre>
 ```
