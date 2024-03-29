@@ -6,21 +6,27 @@ This Python script calculates the probability that a student is absent given tha
 
 The problem states that the probability that it is Friday and that a student is absent is 3%. Since there are 5 school days in a week, the probability that it is Friday is 20%. We need to find the probability that a student is absent given that today is Friday.
 
+## Problem Description
+
+The problem statement provides the following probabilities:
+- The probability that it is Friday and that a student is absent is 3%.
+- The probability that it is Friday is 20%.
+
+We need to find the probability that a student is absent given that today is Friday.
+
 ## Bayes' Rule Application
 
-Bayes' Rule states that the probability of an event A given that event B has occurred is calculated as:
-```css
-P(A/B) = (P(B/A) * P(A)) / P(B)
-```
-where:
-- P(A/B) is the probability of A given B
-- P(B/A) is the probability of B given A
-- P(A) is the probability of A
-- P(B) is the probability of B
+Bayes' Rule is applied as follows:
+1. **Given Information:**
+   - The probability of Friday and absent: p(A ∩ F) = 0.03
+   - The probability of Friday: p(F) = 0.20
 
-In this problem:
-- A: Student is absent
-- B: Today is Friday
+2. **Calculation:**
+   - Using Bayes' Rule: **P(A | F) = P(A ∩ F) / P(F)**
+
+3. **Result:**
+   - The probability that a student is absent given that today is Friday: P(A | F)
+
 
 ## Python Code
 
