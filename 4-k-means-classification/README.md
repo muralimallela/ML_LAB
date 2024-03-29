@@ -34,7 +34,7 @@ Before running the script, make sure to install `scikit-learn` module. You can d
 pip install scikit-learn
 ```
 
-You can run the provided Python script [!kmeans_classification.py](kmeans_classification.py) to predict the classification. Here's how to run it:
+You can run the provided Python script [kmeans_classification.py](kmeans_classification.py) to predict the classification. Here's how to run it:
  ```bash
  python kmeans_classification.py
 ```
