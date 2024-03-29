@@ -31,17 +31,28 @@ Bayes' Rule is applied as follows:
 ## Python Code
 
 ```python
-pAF = 0.03  # Probability of a student being absent
-pF = 0.2    # Probability of today being Friday
+# The probability that it is Friday and that a student is absent is 3%
+pAF = 0.03
+print("The probability that it is Friday and that a student is absent:", pAF)
 
-# Applying Bayes' Rule to calculate the probability of a student being absent given that today is Friday
-result = (pAF / pF) * 100
+# The probability that it is Friday is 20%
+pF = 0.2
+print("The probability that it is Friday:", pF)
 
-print("The probability is", result, "%")
+# The probability that a student is absent given that today is Friday
+pResult = (pAF / pF)
+
+# Display the Result
+print("The probability that a student is absent given that today is Friday:", pResult * 100, "%")
+
 ```
 ## Output
 The output of the script will be:
 
 ```bash
-The probability is 15.0 %
+The probability that it is Friday and that a student is absent: 0.03
+The probability that it is Friday :  0.2
+The probability that a student is absent given that today is Friday :  15.0 %
+
 ```
+This output displays the calculated probabilities and the final result, indicating that the probability of a student being absent given that today is Friday is 15%.
