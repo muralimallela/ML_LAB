@@ -46,3 +46,76 @@ This dataset `Statements_data.csv` contains labeled English text statements indi
 | We will have good fun tomorrow            | pos   |
 | I hate this food                          | neg   |
 
+## Script Explanation
+
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score
+msglbl_data = pd.read_csv('Statements_data.csv', names=['Message',
+'Label'])
+print("The Total instances in the Dataset: ", msglbl_data.shape[0])
+msglbl_data['labelnum'] = msglbl_data.Label.map({'pos': 1, 'neg':
+0})
+# place the data in X and Y Vectors
+X = msglbl_data["Message"]
+Y = msglbl_data.labelnum
+# to split the data into train se and test set
+Xtrain, Xtest, Ytrain, Ytest = train_test_split(X, Y)
+count_vect = CountVectorizer()
+Xtrain_dims = count_vect.fit_transform(Xtrain)
+Xtest_dims = count_vect.transform(Xtest)
+df = pd.DataFrame(Xtrain_dims.toarray(),columns=count_vect.get_feature_names_out())
+clf = MultinomialNB()
+# to fit the train data into model
+clf.fit(Xtrain_dims, Ytrain)
+# to predict the test data
+prediction = clf.predict(Xtest_dims)
+print('******** Accuracy Metrics *********')
+print('Accuracy : ', accuracy_score(Ytest, prediction))
+print('Recall : ', recall_score(Ytest, prediction))
+print('Precision : ',precision_score(Ytest, prediction))
+print('Confusion Matrix : \n', confusion_matrix(Ytest, prediction))
+print(10*"-")
+# to predict the input statement
+test_stmt = [input("Enter any statement to predict :")]
+test_dims = count_vect.transform(test_stmt)
+pred = clf.predict(test_dims)
+for stmt,lbl in zip(test_stmt,pred):
+    if lbl == 1:
+        print("Statement is Positive")
+    else:
+        print("Statement is Negative")
+```
+
+1. The script reads the dataset Statements_data.csv containing statements and their corresponding labels (positive or negative).
+2. It maps the labels to numeric values.
+3. The data is split into training and testing sets.
+4. Text data is converted to vectors using CountVectorizer.
+5. A Multinomial Naive Bayes classifier is trained on the training data.
+6. Predictions are made on the test data.
+7. Accuracy, recall, precision, and confusion matrix metrics are printed.
+8. Users can input a statement for sentiment prediction, and the script will classify it as positive or negative.
+
+## Expected Output
+
+
+The output of the sentiment analysis Python script provides information about the dataset, model performance metrics, and prediction results.
+
+
+```html
+The Total instances in the Dataset: 18
+******** Accuracy Metrics *********
+Accuracy : 0.6
+Recall : 1.0
+Precision : 0.6
+Confusion Matrix :
+[[0 2]
+[0 3]]
+----------
+Enter any statement to predict :I hate juice
+Statement is Negative
+```
+
