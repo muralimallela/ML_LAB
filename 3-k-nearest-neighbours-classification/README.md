@@ -10,7 +10,7 @@ Before running the script, make sure to install the scikit-learn module. You can
 pip install scikit-learn
 ```
 # Usage
-You can run the provided Python script knn_classification.py to perform k-nearest neighbors classification. Here's how to run it:
+You can run the provided Python script `knn_classification.py` to perform k-nearest neighbors classification. Here's how to run it:
 
 ```bash
 python knn_classification.py
