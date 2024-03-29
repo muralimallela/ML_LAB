@@ -23,7 +23,7 @@ Bayes' Rule is applied as follows:
    - The probability of Friday: $ p(F) = 0.20 $
 
 2. **Calculation:**
-   - Using Bayes' Rule: $ P(A | F) = \frac{P(A \cap F)}{P(F)} $
+   - Using Bayes' Rule: $ P\left(A | F \right) \leq \frac{P(A \cap F)}{P(F)} $
      $ P(A | F) = \frac{P(A \cap F)}{P(F)} $
 
 3. **Result:**
