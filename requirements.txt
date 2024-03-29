@@ -1,4 +1,8 @@
 pandas
 matplotlib
 scikit-learn
+<<<<<<< HEAD
 mysql.connector
+=======
+mysql.connector
+>>>>>>> f1aafacd7ebc10c6e5f8623d71c6a19412f1f2cd
