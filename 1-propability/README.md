@@ -10,11 +10,11 @@ The problem states that the probability that it is Friday and that a student is 
 
 Bayes' Rule states that the probability of an event A given that event B has occurred is calculated as:
 ```css
-P(A|B) = (P(B|A) * P(A)) / P(B)
+P(A/B) = (P(B/A) * P(A)) / P(B)
 ```
 where:
-- P(A|B) is the probability of A given B
-- P(B|A) is the probability of B given A
+- P(A/B) is the probability of A given B
+- P(B/A) is the probability of B given A
 - P(A) is the probability of A
 - P(B) is the probability of B
 
