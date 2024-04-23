@@ -1,2 +1,2 @@
 # ML LAB
-## JNTUH 3-2 ML Lab Manual
+## JNTUH CSE 3-2 ML Lab Manual
